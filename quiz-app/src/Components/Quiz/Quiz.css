@@ -53,3 +53,59 @@ cursor: pointer;
     background: #ffebeb;
     border-color: #ff4a4a;
 }
+
+/* 🔹 Responsive for tablets (max-width: 900px) */
+@media (max-width: 900px) {
+    .container {
+        width: 80%;
+        margin-top: 100px;
+        padding: 30px 40px;
+    }
+
+    .container h2 {
+        font-size: 22px;
+    }
+
+    .container ul li {
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .container button {
+        width: 200px;
+        height: 55px;
+        font-size: 20px;
+    }
+}
+
+/* 🔹 Responsive for mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-top: 60px;
+        padding: 25px 20px;
+        gap: 15px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container ul li {
+        height: auto;
+        padding: 15px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .container button {
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .container .index {
+        font-size: 16px;
+    }
+}
